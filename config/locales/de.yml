@@ -1,7 +1,7 @@
 de:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Benutzer
         description: Verwaltet Benutzer
     admin:

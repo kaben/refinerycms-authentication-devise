@@ -29,7 +29,7 @@ module Refinery
         end
 
         config.before_configuration do
-          require 'refinery/authentication/devise'
+          require 'refinery/authentication/devise/initialiser'
         end
 
         config.after_initialize do

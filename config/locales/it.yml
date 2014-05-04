@@ -1,7 +1,7 @@
 it:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Utenti
         description: Gestione degli utenti
     admin:

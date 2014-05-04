@@ -1,7 +1,7 @@
 zh-CN:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: 用户
         description: 用户管理
     admin:

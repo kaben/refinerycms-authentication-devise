@@ -1,7 +1,7 @@
 uk:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Користувачі
         description: Управління користувачами
         article: masculine

@@ -1,7 +1,7 @@
 pl:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Użytkownicy
         description: Zarządzaj użytkownikami
     admin:

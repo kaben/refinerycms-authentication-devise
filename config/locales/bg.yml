@@ -1,7 +1,7 @@
 bg:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Потребители
         description: Управление на потребители
     admin:

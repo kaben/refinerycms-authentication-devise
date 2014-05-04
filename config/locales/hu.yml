@@ -1,7 +1,7 @@
 hu:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: Felhasználók
         description: Felhasználók kezelése
     admin:

@@ -1,7 +1,7 @@
 zh-TW:
   refinery:
     plugins:
-      refinery_users:
+      refinery_authentication_devise:
         title: 使用者
         description: 管理使用者
     admin:

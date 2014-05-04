@@ -107,14 +107,14 @@ module Refinery
       end
 
       def user_can_assign_roles?
-        Refinery::Authentication.superuser_can_assign_roles &&
+        Refinery::Authentication::Devise.superuser_can_assign_roles &&
           current_refinery_user.has_role?(:superuser)
       end
 
       def user_is_locking_themselves_out?
         return false if current_refinery_user.id != @user.id || @selected_plugin_names.blank?
 
-        @selected_plugin_names.exclude?('refinery_users') || # removing user plugin access
+        @selected_plugin_names.exclude?('refinery_authentication_devise') || # removing user plugin access
           @selected_role_names.map(&:downcase).exclude?('refinery') # Or we're removing the refinery role
       end
 
