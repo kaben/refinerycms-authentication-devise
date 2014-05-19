@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'refinerycms-core',  '>= 3.0.0.dev'
   s.add_dependency 'actionmailer',      ['>= 4.0.2', '< 4.2']
-  s.add_dependency 'devise',            '~> 3.0.2'
+  s.add_dependency 'devise',            '>= 3.0.2'
   s.add_dependency 'friendly_id',       '>= 5.0.0.rc1'
 end
